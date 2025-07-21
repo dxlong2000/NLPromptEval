@@ -22,9 +22,15 @@ git clone https://github.com/dxlong2000/NLPromptEval.git
 
 3. Reproducing the figures and tables
 
-To reproduce Figure 1: Correlations of properties evaluated by GPT-4o, run 
+To reproduce Figure 1: Correlations of properties evaluated by GPT-4o, first run 
 ```sh
-python / 
+python /src_gpt_4o_multiturn_final.py
+```
+
+then run
+
+```sh
+python /analysis.py 
 ```
 
 To reproduce Table 2: Performance of models (%) on various tasks under different configurations
