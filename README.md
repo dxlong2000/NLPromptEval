@@ -44,11 +44,11 @@ python /finetuning-codes/finetuning_qwen.py
 If you use this repository in your work, please cite the original paper:
 
 ```sh
-@article{long2025nlprompteval,
-  title={NLPromptEval: Evaluating Large Language Models for Instruction Following},
-  author={Long, D. X. et al.},
+@article{long2025makes,
+  title={What Makes a Good Natural Language Prompt?},
+  author={Long, Do Xuan and Dinh, Duy and Nguyen, Ngoc-Hai and Kawaguchi, Kenji and Chen, Nancy F and Joty, Shafiq and Kan, Min-Yen},
   journal={arXiv preprint arXiv:2506.06950},
-  year={2025},
+  year={2025}
 }
 ```
 
