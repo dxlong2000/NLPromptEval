@@ -16,15 +16,27 @@ To clone the repository, run the following command:
 
 ```sh
 git clone https://github.com/dxlong2000/NLPromptEval.git
-cd WHATMAKESAGOODPROMPT
 ```
 
 2. Install dependencies
 
 3. Reproducing the figures and tables
 
-To reproduce the figures and tables from the paper:
+To reproduce Figure 1: Correlations of properties evaluated by GPT-4o, run 
+```sh
+python / 
+```
 
+To reproduce Table 2: Performance of models (%) on various tasks under different configurations
+```sh
+cd inference-codes
+```
+and then run the script for the corresponding models and datasets.
+
+To reproduce Table 3: Performance of two fine-tuned Qwen-2.5-7B-it models, run 
+```sh
+python /finetuning-codes/finetuning_qwen.py
+```
 
 
 **Citations:**
@@ -41,4 +53,5 @@ If you use this repository in your work, please cite the original paper:
 ```
 
 **License**
+
 This repository is licensed under the MIT License - see the LICENSE file for details.
