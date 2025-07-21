@@ -22,11 +22,13 @@ cd WHATMAKESAGOODPROMPT
 2. Install dependencies
 
 3. Reproducing the figures and tables
+
 To reproduce the figures and tables from the paper:
 
 
 
-**Citations**
+**Citations:**
+
 If you use this repository in your work, please cite the original paper:
 
 ```sh
