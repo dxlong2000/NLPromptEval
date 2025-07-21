@@ -1,0 +1,193 @@
+                                                                                                                                                                                           
+{'loss': 1.8117, 'grad_norm': 0.40870981721831096, 'learning_rate': 0.00019846153846153847, 'epoch': 0.08}
+{'loss': 1.8088, 'grad_norm': 0.30764105897067445, 'learning_rate': 0.00019692307692307696, 'epoch': 0.15}
+{'loss': 1.7097, 'grad_norm': 0.6059726470349064, 'learning_rate': 0.0001953846153846154, 'epoch': 0.23}
+{'loss': 1.5818, 'grad_norm': 1.1693005556337588, 'learning_rate': 0.00019384615384615385, 'epoch': 0.31}
+{'loss': 1.4765, 'grad_norm': 0.2801653346451683, 'learning_rate': 0.00019230769230769233, 'epoch': 0.38}
+{'loss': 1.4448, 'grad_norm': 0.08948780763084475, 'learning_rate': 0.0001907692307692308, 'epoch': 0.46}
+{'loss': 1.3892, 'grad_norm': 0.10635042472456568, 'learning_rate': 0.00018923076923076923, 'epoch': 0.54}
+{'loss': 1.3617, 'grad_norm': 0.09216458387553154, 'learning_rate': 0.0001876923076923077, 'epoch': 0.62}
+{'loss': 1.3576, 'grad_norm': 0.07206139154127227, 'learning_rate': 0.00018615384615384617, 'epoch': 0.69}
+{'loss': 1.3297, 'grad_norm': 0.06825832024351482, 'learning_rate': 0.00018461538461538463, 'epoch': 0.77}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+                                                                                                                                                                                           
+{'eval_loss': 1.2979497909545898, 'eval_runtime': 1.825, 'eval_samples_per_second': 54.246, 'eval_steps_per_second': 2.192, 'epoch': 0.77}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.2679, 'grad_norm': 0.05963189946021624, 'learning_rate': 0.0001830769230769231, 'epoch': 0.85}
+{'loss': 1.3198, 'grad_norm': 0.051991938021317026, 'learning_rate': 0.00018153846153846155, 'epoch': 0.92}
+{'loss': 1.2759, 'grad_norm': 0.0529019427086723, 'learning_rate': 0.00018, 'epoch': 1.0}
+{'loss': 1.2624, 'grad_norm': 0.048351121953860404, 'learning_rate': 0.00017846153846153847, 'epoch': 1.08}
+{'loss': 1.3012, 'grad_norm': 0.05387283275297505, 'learning_rate': 0.00017692307692307693, 'epoch': 1.15}
+{'loss': 1.2516, 'grad_norm': 0.04544677058560082, 'learning_rate': 0.0001753846153846154, 'epoch': 1.23}
+{'loss': 1.2525, 'grad_norm': 0.042553582681862, 'learning_rate': 0.00017384615384615385, 'epoch': 1.31}
+{'loss': 1.2598, 'grad_norm': 0.0402636893751873, 'learning_rate': 0.00017230769230769234, 'epoch': 1.38}
+{'loss': 1.2463, 'grad_norm': 0.039630901105501985, 'learning_rate': 0.00017076923076923077, 'epoch': 1.46}
+{'loss': 1.2249, 'grad_norm': 0.04010671217593307, 'learning_rate': 0.00016923076923076923, 'epoch': 1.54}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2457917928695679, 'eval_runtime': 1.8259, 'eval_samples_per_second': 54.221, 'eval_steps_per_second': 2.191, 'epoch': 1.54}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.2269, 'grad_norm': 0.04318954025964323, 'learning_rate': 0.00016769230769230772, 'epoch': 1.62}
+{'loss': 1.2432, 'grad_norm': 0.037682815500110385, 'learning_rate': 0.00016615384615384617, 'epoch': 1.69}
+{'loss': 1.2621, 'grad_norm': 0.034721322030271694, 'learning_rate': 0.0001646153846153846, 'epoch': 1.77}
+{'loss': 1.2495, 'grad_norm': 0.03876725650856684, 'learning_rate': 0.0001630769230769231, 'epoch': 1.85}
+{'loss': 1.203, 'grad_norm': 0.03972952497045147, 'learning_rate': 0.00016153846153846155, 'epoch': 1.92}
+{'loss': 1.2223, 'grad_norm': 0.038547246755451424, 'learning_rate': 0.00016, 'epoch': 2.0}
+{'loss': 1.2071, 'grad_norm': 0.03596904592783976, 'learning_rate': 0.00015846153846153847, 'epoch': 2.08}
+{'loss': 1.2276, 'grad_norm': 0.034985393196511394, 'learning_rate': 0.00015692307692307693, 'epoch': 2.15}
+{'loss': 1.2709, 'grad_norm': 0.04290423818995399, 'learning_rate': 0.0001553846153846154, 'epoch': 2.23}
+{'loss': 1.1988, 'grad_norm': 0.035910568994076214, 'learning_rate': 0.00015384615384615385, 'epoch': 2.31}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2245092391967773, 'eval_runtime': 1.8243, 'eval_samples_per_second': 54.267, 'eval_steps_per_second': 2.193, 'epoch': 2.31}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.1951, 'grad_norm': 0.0390951623156176, 'learning_rate': 0.0001523076923076923, 'epoch': 2.38}
+{'loss': 1.2142, 'grad_norm': 0.0348532869810108, 'learning_rate': 0.00015076923076923077, 'epoch': 2.46}
+{'loss': 1.2018, 'grad_norm': 0.03659590914605521, 'learning_rate': 0.00014923076923076923, 'epoch': 2.54}
+{'loss': 1.1791, 'grad_norm': 0.03666030490059032, 'learning_rate': 0.00014769230769230772, 'epoch': 2.62}
+{'loss': 1.1859, 'grad_norm': 0.03653366741286189, 'learning_rate': 0.00014615384615384615, 'epoch': 2.69}
+{'loss': 1.1793, 'grad_norm': 0.040738928220725945, 'learning_rate': 0.0001446153846153846, 'epoch': 2.77}
+{'loss': 1.1811, 'grad_norm': 0.0370728328412372, 'learning_rate': 0.0001430769230769231, 'epoch': 2.85}
+{'loss': 1.1818, 'grad_norm': 0.03550808715441849, 'learning_rate': 0.00014153846153846156, 'epoch': 2.92}
+{'loss': 1.1849, 'grad_norm': 0.03752907159689036, 'learning_rate': 0.00014, 'epoch': 3.0}
+{'loss': 1.1759, 'grad_norm': 0.035188818009451735, 'learning_rate': 0.00013846153846153847, 'epoch': 3.08}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2148257493972778, 'eval_runtime': 1.8201, 'eval_samples_per_second': 54.391, 'eval_steps_per_second': 2.198, 'epoch': 3.08}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.1884, 'grad_norm': 0.03809999715315457, 'learning_rate': 0.00013692307692307693, 'epoch': 3.15}
+{'loss': 1.1669, 'grad_norm': 0.039725638215949426, 'learning_rate': 0.0001353846153846154, 'epoch': 3.23}
+{'loss': 1.1794, 'grad_norm': 0.037187434433129, 'learning_rate': 0.00013384615384615385, 'epoch': 3.31}
+{'loss': 1.1797, 'grad_norm': 0.04066383465159324, 'learning_rate': 0.0001323076923076923, 'epoch': 3.38}
+{'loss': 1.1426, 'grad_norm': 0.04088642963691454, 'learning_rate': 0.00013076923076923077, 'epoch': 3.46}
+{'loss': 1.2047, 'grad_norm': 0.041865632434463465, 'learning_rate': 0.00012923076923076923, 'epoch': 3.54}
+{'loss': 1.1295, 'grad_norm': 0.041398081214796024, 'learning_rate': 0.0001276923076923077, 'epoch': 3.62}
+{'loss': 1.1953, 'grad_norm': 0.04750254233006033, 'learning_rate': 0.00012615384615384615, 'epoch': 3.69}
+{'loss': 1.1909, 'grad_norm': 0.03974908841913863, 'learning_rate': 0.0001246153846153846, 'epoch': 3.77}
+{'loss': 1.1473, 'grad_norm': 0.04355808444789304, 'learning_rate': 0.0001230769230769231, 'epoch': 3.85}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2125040292739868, 'eval_runtime': 1.8372, 'eval_samples_per_second': 53.885, 'eval_steps_per_second': 2.177, 'epoch': 3.85}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.1551, 'grad_norm': 0.04459374358607344, 'learning_rate': 0.00012153846153846153, 'epoch': 3.92}
+{'loss': 1.1223, 'grad_norm': 0.04504601219274867, 'learning_rate': 0.00012, 'epoch': 4.0}
+{'loss': 1.1411, 'grad_norm': 0.043007566994643774, 'learning_rate': 0.00011846153846153846, 'epoch': 4.08}
+{'loss': 1.1222, 'grad_norm': 0.0422055418682486, 'learning_rate': 0.00011692307692307694, 'epoch': 4.15}
+{'loss': 1.139, 'grad_norm': 0.045546181665417816, 'learning_rate': 0.00011538461538461538, 'epoch': 4.23}
+{'loss': 1.1419, 'grad_norm': 0.04303477252376027, 'learning_rate': 0.00011384615384615384, 'epoch': 4.31}
+{'loss': 1.1655, 'grad_norm': 0.04950743112626015, 'learning_rate': 0.00011230769230769231, 'epoch': 4.38}
+{'loss': 1.1578, 'grad_norm': 0.04808457679044241, 'learning_rate': 0.00011076923076923077, 'epoch': 4.46}
+{'loss': 1.1503, 'grad_norm': 0.04714544406883223, 'learning_rate': 0.00010923076923076922, 'epoch': 4.54}
+{'loss': 1.1494, 'grad_norm': 0.04707179753990137, 'learning_rate': 0.0001076923076923077, 'epoch': 4.62}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.213813066482544, 'eval_runtime': 1.8341, 'eval_samples_per_second': 53.977, 'eval_steps_per_second': 2.181, 'epoch': 4.62}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.1012, 'grad_norm': 0.046958678694291045, 'learning_rate': 0.00010615384615384615, 'epoch': 4.69}
+{'loss': 1.1407, 'grad_norm': 0.0480052639333302, 'learning_rate': 0.00010461538461538463, 'epoch': 4.77}
+{'loss': 1.1377, 'grad_norm': 0.045941167682573905, 'learning_rate': 0.00010307692307692307, 'epoch': 4.85}
+{'loss': 1.1261, 'grad_norm': 0.050591488572545376, 'learning_rate': 0.00010153846153846153, 'epoch': 4.92}
+{'loss': 1.1328, 'grad_norm': 0.050055181971449744, 'learning_rate': 0.0001, 'epoch': 5.0}
+{'loss': 1.123, 'grad_norm': 0.055870671064163734, 'learning_rate': 9.846153846153848e-05, 'epoch': 5.08}
+{'loss': 1.1256, 'grad_norm': 0.05023708894340212, 'learning_rate': 9.692307692307692e-05, 'epoch': 5.15}
+{'loss': 1.0831, 'grad_norm': 0.05416589203034811, 'learning_rate': 9.53846153846154e-05, 'epoch': 5.23}
+{'loss': 1.1271, 'grad_norm': 0.05483455411299352, 'learning_rate': 9.384615384615386e-05, 'epoch': 5.31}
+{'loss': 1.1058, 'grad_norm': 0.05721811446123007, 'learning_rate': 9.230769230769232e-05, 'epoch': 5.38}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2212185859680176, 'eval_runtime': 1.8288, 'eval_samples_per_second': 54.134, 'eval_steps_per_second': 2.187, 'epoch': 5.38}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.1197, 'grad_norm': 0.055869511584688135, 'learning_rate': 9.076923076923078e-05, 'epoch': 5.46}
+{'loss': 1.0796, 'grad_norm': 0.0529019957538944, 'learning_rate': 8.923076923076924e-05, 'epoch': 5.54}
+{'loss': 1.1127, 'grad_norm': 0.06268204684559792, 'learning_rate': 8.76923076923077e-05, 'epoch': 5.62}
+{'loss': 1.1012, 'grad_norm': 0.06883264584502265, 'learning_rate': 8.615384615384617e-05, 'epoch': 5.69}
+{'loss': 1.1365, 'grad_norm': 0.061788825975022575, 'learning_rate': 8.461538461538461e-05, 'epoch': 5.77}
+{'loss': 1.0633, 'grad_norm': 0.06003419316223021, 'learning_rate': 8.307692307692309e-05, 'epoch': 5.85}
+{'loss': 1.1024, 'grad_norm': 0.06576550343296315, 'learning_rate': 8.153846153846155e-05, 'epoch': 5.92}
+{'loss': 1.0953, 'grad_norm': 0.06101576963462294, 'learning_rate': 8e-05, 'epoch': 6.0}
+{'loss': 1.0966, 'grad_norm': 0.0629267159500666, 'learning_rate': 7.846153846153847e-05, 'epoch': 6.08}
+{'loss': 1.0755, 'grad_norm': 0.05808603115663591, 'learning_rate': 7.692307692307693e-05, 'epoch': 6.15}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2284207344055176, 'eval_runtime': 1.8408, 'eval_samples_per_second': 53.782, 'eval_steps_per_second': 2.173, 'epoch': 6.15}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.0783, 'grad_norm': 0.07193316267994468, 'learning_rate': 7.538461538461539e-05, 'epoch': 6.23}
+{'loss': 1.0716, 'grad_norm': 0.06913158998573964, 'learning_rate': 7.384615384615386e-05, 'epoch': 6.31}
+{'loss': 1.0681, 'grad_norm': 0.06709641492626253, 'learning_rate': 7.23076923076923e-05, 'epoch': 6.38}
+{'loss': 1.036, 'grad_norm': 0.0660780127380901, 'learning_rate': 7.076923076923078e-05, 'epoch': 6.46}
+{'loss': 1.083, 'grad_norm': 0.07393784709196831, 'learning_rate': 6.923076923076924e-05, 'epoch': 6.54}
+{'loss': 1.0845, 'grad_norm': 0.07407278101062058, 'learning_rate': 6.76923076923077e-05, 'epoch': 6.62}
+{'loss': 1.0497, 'grad_norm': 0.06964951211963204, 'learning_rate': 6.615384615384616e-05, 'epoch': 6.69}
+{'loss': 1.0512, 'grad_norm': 0.06977006447366628, 'learning_rate': 6.461538461538462e-05, 'epoch': 6.77}
+{'loss': 1.0706, 'grad_norm': 0.06725521195811959, 'learning_rate': 6.307692307692308e-05, 'epoch': 6.85}
+{'loss': 1.0707, 'grad_norm': 0.07741995215017133, 'learning_rate': 6.153846153846155e-05, 'epoch': 6.92}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2378888130187988, 'eval_runtime': 1.8262, 'eval_samples_per_second': 54.212, 'eval_steps_per_second': 2.19, 'epoch': 6.92}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.0689, 'grad_norm': 0.07146742210408123, 'learning_rate': 6e-05, 'epoch': 7.0}
+{'loss': 1.048, 'grad_norm': 0.07500013379484938, 'learning_rate': 5.846153846153847e-05, 'epoch': 7.08}
+{'loss': 1.0316, 'grad_norm': 0.0709487686547272, 'learning_rate': 5.692307692307692e-05, 'epoch': 7.15}
+{'loss': 1.0436, 'grad_norm': 0.07604511466448857, 'learning_rate': 5.538461538461539e-05, 'epoch': 7.23}
+{'loss': 1.014, 'grad_norm': 0.07824053739308645, 'learning_rate': 5.384615384615385e-05, 'epoch': 7.31}
+{'loss': 1.0561, 'grad_norm': 0.08180236386282011, 'learning_rate': 5.230769230769231e-05, 'epoch': 7.38}
+{'loss': 0.996, 'grad_norm': 0.08019038241476, 'learning_rate': 5.0769230769230766e-05, 'epoch': 7.46}
+{'loss': 1.032, 'grad_norm': 0.0798384230236492, 'learning_rate': 4.923076923076924e-05, 'epoch': 7.54}
+{'loss': 1.03, 'grad_norm': 0.08067631780698906, 'learning_rate': 4.76923076923077e-05, 'epoch': 7.62}
+{'loss': 1.0695, 'grad_norm': 0.07798804887438214, 'learning_rate': 4.615384615384616e-05, 'epoch': 7.69}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.254159927368164, 'eval_runtime': 1.8327, 'eval_samples_per_second': 54.018, 'eval_steps_per_second': 2.183, 'epoch': 7.69}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.0783, 'grad_norm': 0.07871238233781573, 'learning_rate': 4.461538461538462e-05, 'epoch': 7.77}
+{'loss': 0.9922, 'grad_norm': 0.08325163577425342, 'learning_rate': 4.3076923076923084e-05, 'epoch': 7.85}
+{'loss': 1.048, 'grad_norm': 0.08097703988398475, 'learning_rate': 4.1538461538461544e-05, 'epoch': 7.92}
+{'loss': 1.0022, 'grad_norm': 0.08159103885149406, 'learning_rate': 4e-05, 'epoch': 8.0}
+{'loss': 1.0025, 'grad_norm': 0.08667131718507724, 'learning_rate': 3.846153846153846e-05, 'epoch': 8.08}
+{'loss': 1.0172, 'grad_norm': 0.08353473004831367, 'learning_rate': 3.692307692307693e-05, 'epoch': 8.15}
+{'loss': 1.0055, 'grad_norm': 0.08189201363241508, 'learning_rate': 3.538461538461539e-05, 'epoch': 8.23}
+{'loss': 1.003, 'grad_norm': 0.08863185335598545, 'learning_rate': 3.384615384615385e-05, 'epoch': 8.31}
+{'loss': 1.0301, 'grad_norm': 0.09321895640438647, 'learning_rate': 3.230769230769231e-05, 'epoch': 8.38}
+{'loss': 0.9603, 'grad_norm': 0.08616625572011281, 'learning_rate': 3.0769230769230774e-05, 'epoch': 8.46}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2775402069091797, 'eval_runtime': 1.8474, 'eval_samples_per_second': 53.588, 'eval_steps_per_second': 2.165, 'epoch': 8.46}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 1.0032, 'grad_norm': 0.09324116787612835, 'learning_rate': 2.9230769230769234e-05, 'epoch': 8.54}
+{'loss': 1.0177, 'grad_norm': 0.09064420935704814, 'learning_rate': 2.7692307692307694e-05, 'epoch': 8.62}
+{'loss': 1.0064, 'grad_norm': 0.08515827954441385, 'learning_rate': 2.6153846153846157e-05, 'epoch': 8.69}
+{'loss': 1.0012, 'grad_norm': 0.08884281353638869, 'learning_rate': 2.461538461538462e-05, 'epoch': 8.77}
+{'loss': 1.0159, 'grad_norm': 0.0883414952626728, 'learning_rate': 2.307692307692308e-05, 'epoch': 8.85}
+{'loss': 0.9976, 'grad_norm': 0.09238420153826828, 'learning_rate': 2.1538461538461542e-05, 'epoch': 8.92}
+{'loss': 0.9884, 'grad_norm': 0.09183639604393831, 'learning_rate': 2e-05, 'epoch': 9.0}
+{'loss': 0.9879, 'grad_norm': 0.091843896519798, 'learning_rate': 1.8461538461538465e-05, 'epoch': 9.08}
+{'loss': 0.9681, 'grad_norm': 0.08914100255192874, 'learning_rate': 1.6923076923076924e-05, 'epoch': 9.15}
+{'loss': 1.0087, 'grad_norm': 0.08996387572947996, 'learning_rate': 1.5384615384615387e-05, 'epoch': 9.23}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.281382441520691, 'eval_runtime': 1.8153, 'eval_samples_per_second': 54.536, 'eval_steps_per_second': 2.203, 'epoch': 9.23}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+{'loss': 0.9711, 'grad_norm': 0.09013867535956202, 'learning_rate': 1.3846153846153847e-05, 'epoch': 9.31}
+{'loss': 0.9901, 'grad_norm': 0.08900655618448595, 'learning_rate': 1.230769230769231e-05, 'epoch': 9.38}
+{'loss': 0.9609, 'grad_norm': 0.08984675030818048, 'learning_rate': 1.0769230769230771e-05, 'epoch': 9.46}
+{'loss': 0.9746, 'grad_norm': 0.09610136785327544, 'learning_rate': 9.230769230769232e-06, 'epoch': 9.54}
+{'loss': 1.0337, 'grad_norm': 0.09739342521457266, 'learning_rate': 7.692307692307694e-06, 'epoch': 9.62}
+{'loss': 0.9518, 'grad_norm': 0.09410129662330163, 'learning_rate': 6.153846153846155e-06, 'epoch': 9.69}
+{'loss': 1.0137, 'grad_norm': 0.09393999223046347, 'learning_rate': 4.615384615384616e-06, 'epoch': 9.77}
+{'loss': 0.9857, 'grad_norm': 0.09516596759660703, 'learning_rate': 3.0769230769230774e-06, 'epoch': 9.85}
+{'loss': 0.9683, 'grad_norm': 0.09327369144757973, 'learning_rate': 1.5384615384615387e-06, 'epoch': 9.92}
+{'loss': 0.9735, 'grad_norm': 0.090979804969652, 'learning_rate': 0.0, 'epoch': 10.0}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+{'eval_loss': 1.2906795740127563, 'eval_runtime': 1.8192, 'eval_samples_per_second': 54.419, 'eval_steps_per_second': 2.199, 'epoch': 10.0}
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [07:19<00:00,  3.38s/it]
+{'train_runtime': 440.7212, 'train_samples_per_second': 18.515, 'train_steps_per_second': 0.295, 'train_loss': 1.1422359934219948, 'epoch': 10.0}
+***** train metrics *****
+  epoch                    =       10.0
+  total_flos               =  6831386GF
+  train_loss               =     1.1422
+  train_runtime            = 0:07:20.72
+  train_samples            =       2250
+  train_samples_per_second =     18.515
+  train_steps_per_second   =      0.295
+2025-05-22 17:53:36,982 - __main__ - INFO - *** Save model ***
+INFO:__main__:*** Save model ***
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+2025-05-22 17:53:47,009 - __main__ - INFO - Model saved to finetuning-codes/runs/qwen-2.5-7b-alpaca
+INFO:__main__:Model saved to finetuning-codes/runs/qwen-2.5-7b-alpaca
+2025-05-22 17:53:47,175 - __main__ - INFO - Tokenizer saved to finetuning-codes/runs/qwen-2.5-7b-alpaca
+INFO:__main__:Tokenizer saved to finetuning-codes/runs/qwen-2.5-7b-alpaca
+2025-05-22 17:53:47,510 - __main__ - INFO - Pushing to hub...
+INFO:__main__:Pushing to hub...
+No files have been modified since last commit. Skipping to prevent empty commit.
+WARNING:huggingface_hub.hf_api:No files have been modified since last commit. Skipping to prevent empty commit.
+2025-05-22 17:53:51,994 - __main__ - INFO - *** Training complete! ***
+INFO:__main__:*** Training complete! ***

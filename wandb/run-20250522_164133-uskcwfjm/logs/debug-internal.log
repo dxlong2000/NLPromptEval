@@ -1,0 +1,15 @@
+{"time":"2025-05-22T16:41:33.987840908Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/long/WhatMakesAGoodPrompt/wandb/run-20250522_164133-uskcwfjm/logs/debug-core.log"}
+{"time":"2025-05-22T16:41:34.338820317Z","level":"INFO","msg":"created new stream","id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:34.33886994Z","level":"INFO","msg":"stream: started","id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:34.338883766Z","level":"INFO","msg":"sender: started","stream_id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:34.338887562Z","level":"INFO","msg":"handler: started","stream_id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:34.338909984Z","level":"INFO","msg":"writer: Do: started","stream_id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:34.804172894Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T16:41:37.243503546Z","level":"INFO","msg":"stream: closing","id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:37.243540415Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T16:41:37.243590007Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T16:41:38.275809323Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T16:41:38.586847893Z","level":"INFO","msg":"handler: closed","stream_id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:38.586891665Z","level":"INFO","msg":"sender: closed","stream_id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:38.586886625Z","level":"INFO","msg":"writer: Close: closed","stream_id":"uskcwfjm"}
+{"time":"2025-05-22T16:41:38.587005306Z","level":"INFO","msg":"stream: closed","id":"uskcwfjm"}

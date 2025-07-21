@@ -1,0 +1,229 @@
+  0%|                                                                                                                                                                               | 0/102 [00:00<?, ?it/s]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+  5%|████████▏                                                                                                                                                              | 5/102 [00:33<05:56,  3.68s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 2.0078, 'grad_norm': 0.7758291683974264, 'learning_rate': 0.00019803921568627454, 'epoch': 0.02}
+{'loss': 1.934, 'grad_norm': 0.7462634209406921, 'learning_rate': 0.000196078431372549, 'epoch': 0.04}
+{'loss': 1.614, 'grad_norm': 0.6384896057500179, 'learning_rate': 0.00019411764705882354, 'epoch': 0.06}
+{'loss': 1.4582, 'grad_norm': 0.3389923744106721, 'learning_rate': 0.00019215686274509807, 'epoch': 0.08}
+{'loss': 1.266, 'grad_norm': 0.27203016139956, 'learning_rate': 0.00019019607843137254, 'epoch': 0.1}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 1.2630263566970825, 'eval_runtime': 8.1436, 'eval_samples_per_second': 12.157, 'eval_steps_per_second': 3.07, 'epoch': 0.1}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 10%|████████████████▎                                                                                                                                                     | 10/102 [01:03<06:06,  3.98s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.2349, 'grad_norm': 0.3032845331769225, 'learning_rate': 0.00018823529411764707, 'epoch': 0.12}
+{'loss': 1.1597, 'grad_norm': 0.23290333618446155, 'learning_rate': 0.00018627450980392157, 'epoch': 0.14}
+{'loss': 1.2046, 'grad_norm': 0.23239839611764554, 'learning_rate': 0.00018431372549019607, 'epoch': 0.16}
+{'loss': 1.1291, 'grad_norm': 0.18403054930406654, 'learning_rate': 0.0001823529411764706, 'epoch': 0.18}
+{'loss': 1.1048, 'grad_norm': 0.15686488535201593, 'learning_rate': 0.0001803921568627451, 'epoch': 0.2}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 1.1031142473220825, 'eval_runtime': 8.3055, 'eval_samples_per_second': 11.92, 'eval_steps_per_second': 3.01, 'epoch': 0.2}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 15%|████████████████████████▍                                                                                                                                             | 15/102 [01:33<05:52,  4.05s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.1336, 'grad_norm': 0.23543801096859193, 'learning_rate': 0.00017843137254901963, 'epoch': 0.22}
+{'loss': 1.1109, 'grad_norm': 0.14618879466928997, 'learning_rate': 0.00017647058823529413, 'epoch': 0.24}
+{'loss': 1.0648, 'grad_norm': 0.3196807298499354, 'learning_rate': 0.00017450980392156863, 'epoch': 0.25}
+{'loss': 1.0965, 'grad_norm': 5.586584872098028, 'learning_rate': 0.00017254901960784316, 'epoch': 0.27}
+{'loss': 1.0751, 'grad_norm': 0.136555354090253, 'learning_rate': 0.00017058823529411766, 'epoch': 0.29}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 1.0608879327774048, 'eval_runtime': 8.3273, 'eval_samples_per_second': 11.889, 'eval_steps_per_second': 3.002, 'epoch': 0.29}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 20%|████████████████████████████████▌                                                                                                                                     | 20/102 [02:02<05:28,  4.01s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.8944, 'grad_norm': 0.11498400780907242, 'learning_rate': 0.00016862745098039216, 'epoch': 0.31}
+{'loss': 1.0803, 'grad_norm': 0.1262842819189855, 'learning_rate': 0.0001666666666666667, 'epoch': 0.33}
+{'loss': 0.993, 'grad_norm': 0.09427744899330921, 'learning_rate': 0.0001647058823529412, 'epoch': 0.35}
+{'loss': 1.0727, 'grad_norm': 0.08665428253274599, 'learning_rate': 0.0001627450980392157, 'epoch': 0.37}
+{'loss': 1.0556, 'grad_norm': 0.0843006633704763, 'learning_rate': 0.00016078431372549022, 'epoch': 0.39}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 1.040634036064148, 'eval_runtime': 8.3108, 'eval_samples_per_second': 11.912, 'eval_steps_per_second': 3.008, 'epoch': 0.39}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 25%|████████████████████████████████████████▋                                                                                                                             | 25/102 [02:32<05:11,  4.04s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9354, 'grad_norm': 0.07737877887900627, 'learning_rate': 0.0001588235294117647, 'epoch': 0.41}
+{'loss': 0.9901, 'grad_norm': 0.08260207039766565, 'learning_rate': 0.00015686274509803922, 'epoch': 0.43}
+{'loss': 1.0323, 'grad_norm': 0.08918957706602593, 'learning_rate': 0.00015490196078431375, 'epoch': 0.45}
+{'loss': 0.9673, 'grad_norm': 0.08635701066579703, 'learning_rate': 0.00015294117647058822, 'epoch': 0.47}
+{'loss': 0.9716, 'grad_norm': 0.08699336389382585, 'learning_rate': 0.00015098039215686275, 'epoch': 0.49}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 1.0291563272476196, 'eval_runtime': 8.4299, 'eval_samples_per_second': 11.744, 'eval_steps_per_second': 2.966, 'epoch': 0.49}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 29%|████████████████████████████████████████████████▊                                                                                                                     | 30/102 [03:02<04:51,  4.05s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9949, 'grad_norm': 0.08418849580484382, 'learning_rate': 0.00014901960784313728, 'epoch': 0.51}
+{'loss': 1.0812, 'grad_norm': 0.08638041432876452, 'learning_rate': 0.00014705882352941178, 'epoch': 0.53}
+{'loss': 1.0229, 'grad_norm': 0.08545628594631241, 'learning_rate': 0.00014509803921568628, 'epoch': 0.55}
+{'loss': 1.0133, 'grad_norm': 0.09891364097052636, 'learning_rate': 0.00014313725490196078, 'epoch': 0.57}
+{'loss': 1.0487, 'grad_norm': 0.08539866100611841, 'learning_rate': 0.0001411764705882353, 'epoch': 0.59}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 1.01993989944458, 'eval_runtime': 8.305, 'eval_samples_per_second': 11.92, 'eval_steps_per_second': 3.01, 'epoch': 0.59}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 34%|████████████████████████████████████████████████████████▉                                                                                                             | 35/102 [03:32<04:29,  4.02s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9709, 'grad_norm': 0.08094599232237612, 'learning_rate': 0.0001392156862745098, 'epoch': 0.61}
+{'loss': 0.9432, 'grad_norm': 0.08237763342575934, 'learning_rate': 0.0001372549019607843, 'epoch': 0.63}
+{'loss': 1.0008, 'grad_norm': 0.08116354327443481, 'learning_rate': 0.00013529411764705884, 'epoch': 0.65}
+{'loss': 0.991, 'grad_norm': 0.07897439845002958, 'learning_rate': 0.00013333333333333334, 'epoch': 0.67}
+{'loss': 1.0071, 'grad_norm': 0.08442882292611564, 'learning_rate': 0.00013137254901960784, 'epoch': 0.69}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 1.0115563869476318, 'eval_runtime': 8.3264, 'eval_samples_per_second': 11.89, 'eval_steps_per_second': 3.003, 'epoch': 0.69}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 39%|█████████████████████████████████████████████████████████████████                                                                                                     | 40/102 [04:02<04:11,  4.06s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9859, 'grad_norm': 0.08534632731619754, 'learning_rate': 0.00012941176470588237, 'epoch': 0.71}
+{'loss': 0.9325, 'grad_norm': 0.08159446593141706, 'learning_rate': 0.00012745098039215687, 'epoch': 0.73}
+{'loss': 1.0276, 'grad_norm': 0.08454895630056149, 'learning_rate': 0.00012549019607843137, 'epoch': 0.75}
+{'loss': 0.9741, 'grad_norm': 0.09196529843107513, 'learning_rate': 0.0001235294117647059, 'epoch': 0.76}
+{'loss': 1.0126, 'grad_norm': 0.08507525779396692, 'learning_rate': 0.00012156862745098039, 'epoch': 0.78}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 1.0047298669815063, 'eval_runtime': 8.318, 'eval_samples_per_second': 11.902, 'eval_steps_per_second': 3.006, 'epoch': 0.78}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 44%|█████████████████████████████████████████████████████████████████████████▏                                                                                            | 45/102 [04:32<03:53,  4.10s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.0843, 'grad_norm': 0.08140605178695585, 'learning_rate': 0.0001196078431372549, 'epoch': 0.8}
+{'loss': 0.9801, 'grad_norm': 0.0871433430289712, 'learning_rate': 0.00011764705882352942, 'epoch': 0.82}
+{'loss': 1.0145, 'grad_norm': 0.08393286604697411, 'learning_rate': 0.00011568627450980394, 'epoch': 0.84}
+{'loss': 1.0089, 'grad_norm': 0.09968759496350166, 'learning_rate': 0.00011372549019607843, 'epoch': 0.86}
+{'loss': 1.0152, 'grad_norm': 0.09375627321230322, 'learning_rate': 0.00011176470588235294, 'epoch': 0.88}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9998314380645752, 'eval_runtime': 8.3342, 'eval_samples_per_second': 11.879, 'eval_steps_per_second': 3.0, 'epoch': 0.88}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 49%|█████████████████████████████████████████████████████████████████████████████████▎                                                                                    | 50/102 [05:01<03:27,  4.00s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.972, 'grad_norm': 0.0890476951537508, 'learning_rate': 0.00010980392156862746, 'epoch': 0.9}
+{'loss': 0.9851, 'grad_norm': 0.08414110947664445, 'learning_rate': 0.00010784313725490196, 'epoch': 0.92}
+{'loss': 1.0372, 'grad_norm': 0.08739531983557138, 'learning_rate': 0.00010588235294117647, 'epoch': 0.94}
+{'loss': 1.0166, 'grad_norm': 0.0859679546140551, 'learning_rate': 0.00010392156862745099, 'epoch': 0.96}
+{'loss': 1.0312, 'grad_norm': 0.09165895173216293, 'learning_rate': 0.00010196078431372549, 'epoch': 0.98}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.996854305267334, 'eval_runtime': 8.3658, 'eval_samples_per_second': 11.834, 'eval_steps_per_second': 2.988, 'epoch': 0.98}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 54%|█████████████████████████████████████████████████████████████████████████████████████████▌                                                                            | 55/102 [05:32<03:12,  4.09s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9079, 'grad_norm': 0.08471434309318121, 'learning_rate': 0.0001, 'epoch': 1.0}
+{'loss': 0.9716, 'grad_norm': 0.08450783099174905, 'learning_rate': 9.80392156862745e-05, 'epoch': 1.02}
+{'loss': 0.9258, 'grad_norm': 0.08916664162548289, 'learning_rate': 9.607843137254903e-05, 'epoch': 1.04}
+{'loss': 0.9572, 'grad_norm': 0.0819070365477482, 'learning_rate': 9.411764705882353e-05, 'epoch': 1.06}
+{'loss': 0.9672, 'grad_norm': 0.09139414662684753, 'learning_rate': 9.215686274509804e-05, 'epoch': 1.08}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9940813779830933, 'eval_runtime': 8.4547, 'eval_samples_per_second': 11.709, 'eval_steps_per_second': 2.957, 'epoch': 1.08}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 59%|█████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                    | 60/102 [06:02<02:54,  4.15s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9711, 'grad_norm': 0.08597194070455716, 'learning_rate': 9.019607843137255e-05, 'epoch': 1.1}
+{'loss': 0.8956, 'grad_norm': 0.09572635611782943, 'learning_rate': 8.823529411764706e-05, 'epoch': 1.12}
+{'loss': 0.9865, 'grad_norm': 0.08913911549226922, 'learning_rate': 8.627450980392158e-05, 'epoch': 1.14}
+{'loss': 0.9177, 'grad_norm': 0.09351122768228164, 'learning_rate': 8.431372549019608e-05, 'epoch': 1.16}
+{'loss': 0.939, 'grad_norm': 0.08938260726714485, 'learning_rate': 8.23529411764706e-05, 'epoch': 1.18}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9923641085624695, 'eval_runtime': 8.3698, 'eval_samples_per_second': 11.828, 'eval_steps_per_second': 2.987, 'epoch': 1.18}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 64%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                            | 65/102 [06:31<02:29,  4.04s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9845, 'grad_norm': 0.08583424929456429, 'learning_rate': 8.039215686274511e-05, 'epoch': 1.2}
+{'loss': 0.9352, 'grad_norm': 0.08603210841147714, 'learning_rate': 7.843137254901961e-05, 'epoch': 1.22}
+{'loss': 0.9255, 'grad_norm': 0.0947867085377407, 'learning_rate': 7.647058823529411e-05, 'epoch': 1.24}
+{'loss': 0.9262, 'grad_norm': 0.08536373030439655, 'learning_rate': 7.450980392156864e-05, 'epoch': 1.25}
+{'loss': 0.933, 'grad_norm': 0.09004981796472072, 'learning_rate': 7.254901960784314e-05, 'epoch': 1.27}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9914826154708862, 'eval_runtime': 8.4258, 'eval_samples_per_second': 11.75, 'eval_steps_per_second': 2.967, 'epoch': 1.27}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 69%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                    | 70/102 [07:02<02:12,  4.13s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.0558, 'grad_norm': 0.10092064718697022, 'learning_rate': 7.058823529411765e-05, 'epoch': 1.29}
+{'loss': 0.9562, 'grad_norm': 0.09721278399460004, 'learning_rate': 6.862745098039216e-05, 'epoch': 1.31}
+{'loss': 0.973, 'grad_norm': 0.09071425664412072, 'learning_rate': 6.666666666666667e-05, 'epoch': 1.33}
+{'loss': 0.931, 'grad_norm': 0.10222803459042205, 'learning_rate': 6.470588235294118e-05, 'epoch': 1.35}
+{'loss': 0.9521, 'grad_norm': 0.0871414679748314, 'learning_rate': 6.274509803921569e-05, 'epoch': 1.37}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9901173114776611, 'eval_runtime': 8.3486, 'eval_samples_per_second': 11.858, 'eval_steps_per_second': 2.995, 'epoch': 1.37}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 74%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                            | 75/102 [07:31<01:50,  4.08s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.7953, 'grad_norm': 0.0868918498765562, 'learning_rate': 6.078431372549019e-05, 'epoch': 1.39}
+{'loss': 0.9288, 'grad_norm': 0.09106215968852086, 'learning_rate': 5.882352941176471e-05, 'epoch': 1.41}
+{'loss': 0.9117, 'grad_norm': 0.09142611236114448, 'learning_rate': 5.6862745098039215e-05, 'epoch': 1.43}
+{'loss': 0.9865, 'grad_norm': 0.09727194482874198, 'learning_rate': 5.490196078431373e-05, 'epoch': 1.45}
+{'loss': 0.9957, 'grad_norm': 0.09227585362299102, 'learning_rate': 5.294117647058824e-05, 'epoch': 1.47}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9892443418502808, 'eval_runtime': 8.3326, 'eval_samples_per_second': 11.881, 'eval_steps_per_second': 3.0, 'epoch': 1.47}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 78%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                   | 80/102 [08:01<01:28,  4.02s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.0, 'grad_norm': 0.09906208796839279, 'learning_rate': 5.0980392156862745e-05, 'epoch': 1.49}
+{'loss': 0.94, 'grad_norm': 0.09312810193248154, 'learning_rate': 4.901960784313725e-05, 'epoch': 1.51}
+{'loss': 0.9765, 'grad_norm': 0.09921539136398032, 'learning_rate': 4.705882352941177e-05, 'epoch': 1.53}
+{'loss': 0.9844, 'grad_norm': 0.09248402061493786, 'learning_rate': 4.5098039215686275e-05, 'epoch': 1.55}
+{'loss': 1.001, 'grad_norm': 0.09462152925461557, 'learning_rate': 4.313725490196079e-05, 'epoch': 1.57}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9885985851287842, 'eval_runtime': 8.3418, 'eval_samples_per_second': 11.868, 'eval_steps_per_second': 2.997, 'epoch': 1.57}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 83%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                           | 85/102 [08:31<01:09,  4.07s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9348, 'grad_norm': 0.09491519230501969, 'learning_rate': 4.11764705882353e-05, 'epoch': 1.59}
+{'loss': 0.8613, 'grad_norm': 0.09228346986551415, 'learning_rate': 3.9215686274509805e-05, 'epoch': 1.61}
+{'loss': 0.9415, 'grad_norm': 0.10065073398663323, 'learning_rate': 3.725490196078432e-05, 'epoch': 1.63}
+{'loss': 0.9705, 'grad_norm': 0.09421318246888333, 'learning_rate': 3.529411764705883e-05, 'epoch': 1.65}
+{'loss': 0.9993, 'grad_norm': 0.09215707757533191, 'learning_rate': 3.3333333333333335e-05, 'epoch': 1.67}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9877912998199463, 'eval_runtime': 8.3646, 'eval_samples_per_second': 11.836, 'eval_steps_per_second': 2.989, 'epoch': 1.67}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 88%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 90/102 [09:00<00:47,  4.00s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9738, 'grad_norm': 0.09966355241455176, 'learning_rate': 3.137254901960784e-05, 'epoch': 1.69}
+{'loss': 0.936, 'grad_norm': 0.09488641702304383, 'learning_rate': 2.9411764705882354e-05, 'epoch': 1.71}
+{'loss': 0.9714, 'grad_norm': 0.09574343443259717, 'learning_rate': 2.7450980392156865e-05, 'epoch': 1.73}
+{'loss': 0.8956, 'grad_norm': 0.08892114769187, 'learning_rate': 2.5490196078431373e-05, 'epoch': 1.75}
+{'loss': 0.8883, 'grad_norm': 0.09586293792882744, 'learning_rate': 2.3529411764705884e-05, 'epoch': 1.76}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.987437903881073, 'eval_runtime': 8.3667, 'eval_samples_per_second': 11.833, 'eval_steps_per_second': 2.988, 'epoch': 1.76}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 95/102 [09:30<00:28,  4.05s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9564, 'grad_norm': 0.09985457859408095, 'learning_rate': 2.1568627450980395e-05, 'epoch': 1.78}
+{'loss': 0.9275, 'grad_norm': 0.0967479516785371, 'learning_rate': 1.9607843137254903e-05, 'epoch': 1.8}
+{'loss': 0.9267, 'grad_norm': 0.09479077876728625, 'learning_rate': 1.7647058823529414e-05, 'epoch': 1.82}
+{'loss': 0.9526, 'grad_norm': 0.09929286827740054, 'learning_rate': 1.568627450980392e-05, 'epoch': 1.84}
+{'loss': 1.0001, 'grad_norm': 0.0968554428554975, 'learning_rate': 1.3725490196078432e-05, 'epoch': 1.86}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.9870894551277161, 'eval_runtime': 8.3492, 'eval_samples_per_second': 11.857, 'eval_steps_per_second': 2.994, 'epoch': 1.86}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊   | 100/102 [10:00<00:08,  4.09s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 0.9959, 'grad_norm': 0.09997945869724532, 'learning_rate': 1.1764705882352942e-05, 'epoch': 1.88}
+{'loss': 0.9635, 'grad_norm': 0.09704893499303699, 'learning_rate': 9.803921568627451e-06, 'epoch': 1.9}
+{'loss': 0.8928, 'grad_norm': 0.09636452569630419, 'learning_rate': 7.84313725490196e-06, 'epoch': 1.92}
+{'loss': 0.9539, 'grad_norm': 0.09759880078081289, 'learning_rate': 5.882352941176471e-06, 'epoch': 1.94}
+{'loss': 1.0097, 'grad_norm': 0.09563601638773758, 'learning_rate': 3.92156862745098e-06, 'epoch': 1.96}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                                 
+{'eval_loss': 0.987063467502594, 'eval_runtime': 8.3613, 'eval_samples_per_second': 11.84, 'eval_steps_per_second': 2.99, 'epoch': 1.96}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 102/102 [10:13<00:00,  6.85s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/checkpoint_engine/torch_checkpoint_engine.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+{'loss': 0.9828, 'grad_norm': 0.09881258724432154, 'learning_rate': 1.96078431372549e-06, 'epoch': 1.98}
+{'loss': 1.0005, 'grad_norm': 0.09417661431858487, 'learning_rate': 0.0, 'epoch': 2.0}
+  partition = torch.load(path, map_location=map_location)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 102/102 [10:17<00:00,  6.05s/it]
+{'train_runtime': 618.6859, 'train_samples_per_second': 2.625, 'train_steps_per_second': 0.165, 'train_loss': 1.0216183165709178, 'epoch': 2.0}
+***** train metrics *****
+  epoch                    =        2.0
+  total_flos               =  1305009GF
+  train_loss               =     1.0216
+  train_runtime            = 0:10:18.68
+  train_samples            =       2250
+  train_samples_per_second =      2.625
+  train_steps_per_second   =      0.165
+2025-05-24 04:39:32,209 - __main__ - INFO - *** Save model ***
+INFO:__main__:*** Save model ***
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+2025-05-24 04:39:42,043 - __main__ - INFO - Model saved to finetuning-codes/runs/qwen-2.5-7b-alpaca-instruct-2452025-ver1
+INFO:__main__:Model saved to finetuning-codes/runs/qwen-2.5-7b-alpaca-instruct-2452025-ver1
+2025-05-24 04:39:42,220 - __main__ - INFO - Tokenizer saved to finetuning-codes/runs/qwen-2.5-7b-alpaca-instruct-2452025-ver1
+INFO:__main__:Tokenizer saved to finetuning-codes/runs/qwen-2.5-7b-alpaca-instruct-2452025-ver1
+2025-05-24 04:39:42,232 - __main__ - INFO - Pushing to hub...
+INFO:__main__:Pushing to hub...
+No files have been modified since last commit. Skipping to prevent empty commit.
+WARNING:huggingface_hub.hf_api:No files have been modified since last commit. Skipping to prevent empty commit.
+2025-05-24 04:39:46,532 - __main__ - INFO - *** Training complete! ***
+INFO:__main__:*** Training complete! ***

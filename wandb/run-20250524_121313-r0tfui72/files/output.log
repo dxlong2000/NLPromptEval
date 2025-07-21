@@ -1,0 +1,50 @@
+  0%|                                                                                                                                                               | 0/13 [00:00<?, ?it/s]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+ 38%|██████████████████████████████████████████████████████████                                                                                             | 5/13 [00:19<00:20,  2.51s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 2.1962, 'grad_norm': 0.3855917901734685, 'learning_rate': 0.00018461538461538463, 'epoch': 0.08}
+{'loss': 2.1667, 'grad_norm': 0.5110621060142608, 'learning_rate': 0.00016923076923076923, 'epoch': 0.15}
+{'loss': 1.8867, 'grad_norm': 0.6688712436781612, 'learning_rate': 0.00015384615384615385, 'epoch': 0.23}
+{'loss': 1.6057, 'grad_norm': 0.5035118007000111, 'learning_rate': 0.00013846153846153847, 'epoch': 0.31}
+{'loss': 1.4278, 'grad_norm': 0.3444014615544035, 'learning_rate': 0.0001230769230769231, 'epoch': 0.38}
+Invalidate trace cache @ step 566: expected module 1, but got module 932
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.388163447380066, 'eval_runtime': 5.2142, 'eval_samples_per_second': 18.987, 'eval_steps_per_second': 4.795, 'epoch': 0.38}
+Invalidate trace cache @ step 566: expected module 932, but got module 1
+ 77%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                  | 10/13 [00:46<00:10,  3.38s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.3673, 'grad_norm': 0.24851714152361246, 'learning_rate': 0.0001076923076923077, 'epoch': 0.46}
+{'loss': 1.3327, 'grad_norm': 0.20350932479588163, 'learning_rate': 9.230769230769232e-05, 'epoch': 0.54}
+{'loss': 1.2812, 'grad_norm': 0.22529748823799814, 'learning_rate': 7.692307692307693e-05, 'epoch': 0.62}
+{'loss': 1.2855, 'grad_norm': 0.2099853019758397, 'learning_rate': 6.153846153846155e-05, 'epoch': 0.69}
+{'loss': 1.2526, 'grad_norm': 0.21606707139987594, 'learning_rate': 4.615384615384616e-05, 'epoch': 0.77}
+Invalidate trace cache @ step 566: expected module 1, but got module 932
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.2452096939086914, 'eval_runtime': 5.2575, 'eval_samples_per_second': 18.83, 'eval_steps_per_second': 4.755, 'epoch': 0.77}
+Invalidate trace cache @ step 566: expected module 932, but got module 1
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:59<00:00,  4.36s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/checkpoint_engine/torch_checkpoint_engine.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+{'loss': 1.2176, 'grad_norm': 0.19007283879876047, 'learning_rate': 3.0769230769230774e-05, 'epoch': 0.85}
+{'loss': 1.2303, 'grad_norm': 0.17766291350090066, 'learning_rate': 1.5384615384615387e-05, 'epoch': 0.92}
+{'loss': 1.2132, 'grad_norm': 0.1763871740245294, 'learning_rate': 0.0, 'epoch': 1.0}
+  partition = torch.load(path, map_location=map_location)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [01:02<00:00,  4.83s/it]
+{'train_runtime': 64.2873, 'train_samples_per_second': 12.693, 'train_steps_per_second': 0.202, 'train_loss': 1.4971851660655096, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =   652738GF
+  train_loss               =     1.4972
+  train_runtime            = 0:01:04.28
+  train_samples            =       2250
+  train_samples_per_second =     12.693
+  train_steps_per_second   =      0.202
+2025-05-24 12:14:28,013 - __main__ - INFO - *** Save model ***
+INFO:__main__:*** Save model ***
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+2025-05-24 12:14:37,924 - __main__ - INFO - Model saved to finetuning-codes/runs/formal_qwen-2.5-7b-alpaca-instruct-2452025-ver7
+INFO:__main__:Model saved to finetuning-codes/runs/formal_qwen-2.5-7b-alpaca-instruct-2452025-ver7
+2025-05-24 12:14:38,085 - __main__ - INFO - Tokenizer saved to finetuning-codes/runs/formal_qwen-2.5-7b-alpaca-instruct-2452025-ver7
+INFO:__main__:Tokenizer saved to finetuning-codes/runs/formal_qwen-2.5-7b-alpaca-instruct-2452025-ver7
+2025-05-24 12:14:38,097 - __main__ - INFO - Pushing to hub...
+INFO:__main__:Pushing to hub...
+No files have been modified since last commit. Skipping to prevent empty commit.
+WARNING:huggingface_hub.hf_api:No files have been modified since last commit. Skipping to prevent empty commit.
+2025-05-24 12:14:44,917 - __main__ - INFO - *** Training complete! ***
+INFO:__main__:*** Training complete! ***

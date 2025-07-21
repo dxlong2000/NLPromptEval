@@ -1,0 +1,73 @@
+  0%|                                                                                                                                                               | 0/51 [00:00<?, ?it/s]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+ 10%|██████████████▊                                                                                                                                        | 5/51 [00:20<01:44,  2.27s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 2.2555, 'grad_norm': 0.41442656975164527, 'learning_rate': 0.000196078431372549, 'epoch': 0.02}
+{'loss': 2.012, 'grad_norm': 0.548906722797722, 'learning_rate': 0.00019215686274509807, 'epoch': 0.04}
+{'loss': 1.9488, 'grad_norm': 0.7123992911839342, 'learning_rate': 0.00018823529411764707, 'epoch': 0.06}
+{'loss': 1.6175, 'grad_norm': 0.5501660233494037, 'learning_rate': 0.00018431372549019607, 'epoch': 0.08}
+{'loss': 1.5019, 'grad_norm': 0.3405813255874018, 'learning_rate': 0.0001803921568627451, 'epoch': 0.1}
+Invalidate trace cache @ step 566: expected module 1, but got module 932
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.3663387298583984, 'eval_runtime': 6.5634, 'eval_samples_per_second': 15.084, 'eval_steps_per_second': 3.809, 'epoch': 0.1}
+Invalidate trace cache @ step 566: expected module 932, but got module 1
+ 20%|█████████████████████████████▍                                                                                                                        | 10/51 [00:46<02:12,  3.22s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.4379, 'grad_norm': 0.24112174884444862, 'learning_rate': 0.00017647058823529413, 'epoch': 0.12}
+{'loss': 1.3579, 'grad_norm': 0.2340954937267629, 'learning_rate': 0.00017254901960784316, 'epoch': 0.14}
+{'loss': 1.2514, 'grad_norm': 0.27170199222005426, 'learning_rate': 0.00016862745098039216, 'epoch': 0.16}
+{'loss': 1.2596, 'grad_norm': 0.2087802292142459, 'learning_rate': 0.0001647058823529412, 'epoch': 0.18}
+{'loss': 1.2527, 'grad_norm': 0.20212781771922486, 'learning_rate': 0.00016078431372549022, 'epoch': 0.2}
+Invalidate trace cache @ step 566: expected module 1, but got module 932
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.1713953018188477, 'eval_runtime': 6.6563, 'eval_samples_per_second': 14.873, 'eval_steps_per_second': 3.756, 'epoch': 0.2}
+Invalidate trace cache @ step 566: expected module 932, but got module 1
+ 29%|████████████████████████████████████████████                                                                                                          | 15/51 [01:11<01:55,  3.22s/it]Traceback (most recent call last):
+{'loss': 1.0972, 'grad_norm': 0.17896139082858273, 'learning_rate': 0.00015686274509803922, 'epoch': 0.22}
+{'loss': 1.2031, 'grad_norm': 0.17971963612133493, 'learning_rate': 0.00015294117647058822, 'epoch': 0.24}
+{'loss': 1.1966, 'grad_norm': 0.19437509698232688, 'learning_rate': 0.00014901960784313728, 'epoch': 0.25}
+{'loss': 1.0882, 'grad_norm': 0.1825681063667503, 'learning_rate': 0.00014509803921568628, 'epoch': 0.27}
+{'loss': 1.068, 'grad_norm': 0.1601269295939915, 'learning_rate': 0.0001411764705882353, 'epoch': 0.29}
+Invalidate trace cache @ step 566: expected module 1, but got module 932
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/serialization.py", line 652, in save                                                                         
+{'eval_loss': 1.090575098991394, 'eval_runtime': 6.7099, 'eval_samples_per_second': 14.754, 'eval_steps_per_second': 3.726, 'epoch': 0.29}
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/serialization.py", line 866, in _save
+    zip_file.write_record('data.pkl', data_value, len(data_value))
+RuntimeError: [enforce fail at inline_container.cc:778] . PytorchStreamWriter failed writing file data.pkl: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 290, in <module>
+    main()
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 286, in main
+    train_function(model_args, script_args, training_args)
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 243, in train_function
+    train_result = trainer.train(resume_from_checkpoint=last_checkpoint)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2114, in train
+    return inner_training_loop(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2548, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3007, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial, metrics=metrics)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3101, in _save_checkpoint
+    self._save_optimizer_and_scheduler(output_dir)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3234, in _save_optimizer_and_scheduler
+    self.model_wrapped.save_checkpoint(output_dir, exclude_frozen_parameters=True)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3163, in save_checkpoint
+    self._save_checkpoint(save_dir,
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3385, in _save_checkpoint
+    self.checkpoint_engine.save(state, save_path)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/checkpoint_engine/torch_checkpoint_engine.py", line 22, in save
+    torch.save(state_dict, path)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/serialization.py", line 651, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/serialization.py", line 499, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:603] . unexpected pos 128 vs 0
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/serialization.py", line 652, in save
+[rank0]:     _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/serialization.py", line 866, in _save
+[rank0]:     zip_file.write_record('data.pkl', data_value, len(data_value))
+[rank0]: RuntimeError: [enforce fail at inline_container.cc:778] . PytorchStreamWriter failed writing file data.pkl: file write failed
+

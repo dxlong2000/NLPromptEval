@@ -1,0 +1,26 @@
+  0%|                                                                                                                                                               | 0/18 [00:00<?, ?it/s]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 18/18 [06:14<00:00, 20.83s/it]
+{'loss': 1.1961, 'grad_norm': 0.006603413686218032, 'learning_rate': 0.0002, 'epoch': 1.6}
+{'train_runtime': 376.5232, 'train_samples_per_second': 6.366, 'train_steps_per_second': 0.048, 'train_loss': 1.138234509362115, 'epoch': 2.88}
+***** train metrics *****
+  epoch                    =       2.88
+  total_flos               =  3419140GF
+  train_loss               =     1.1382
+  train_runtime            = 0:06:16.52
+  train_samples            =       2250
+  train_samples_per_second =      6.366
+  train_steps_per_second   =      0.048
+2025-05-22 17:06:44,778 - __main__ - INFO - *** Save model ***
+INFO:__main__:*** Save model ***
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+2025-05-22 17:06:55,507 - __main__ - INFO - Model saved to finetuning-codes/runs/qwen-2.5-7b-alpaca
+INFO:__main__:Model saved to finetuning-codes/runs/qwen-2.5-7b-alpaca
+2025-05-22 17:06:55,685 - __main__ - INFO - Tokenizer saved to finetuning-codes/runs/qwen-2.5-7b-alpaca
+INFO:__main__:Tokenizer saved to finetuning-codes/runs/qwen-2.5-7b-alpaca
+2025-05-22 17:06:55,699 - __main__ - INFO - Pushing to hub...
+INFO:__main__:Pushing to hub...
+No files have been modified since last commit. Skipping to prevent empty commit.
+WARNING:huggingface_hub.hf_api:No files have been modified since last commit. Skipping to prevent empty commit.
+2025-05-22 17:07:00,184 - __main__ - INFO - *** Training complete! ***
+INFO:__main__:*** Training complete! ***

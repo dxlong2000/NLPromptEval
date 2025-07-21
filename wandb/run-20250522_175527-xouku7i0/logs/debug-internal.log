@@ -1,0 +1,7 @@
+{"time":"2025-05-22T17:55:27.870212137Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/long/WhatMakesAGoodPrompt/wandb/run-20250522_175527-xouku7i0/logs/debug-core.log"}
+{"time":"2025-05-22T17:55:28.218975287Z","level":"INFO","msg":"created new stream","id":"xouku7i0"}
+{"time":"2025-05-22T17:55:28.219015312Z","level":"INFO","msg":"stream: started","id":"xouku7i0"}
+{"time":"2025-05-22T17:55:28.219023457Z","level":"INFO","msg":"writer: Do: started","stream_id":"xouku7i0"}
+{"time":"2025-05-22T17:55:28.219033987Z","level":"INFO","msg":"sender: started","stream_id":"xouku7i0"}
+{"time":"2025-05-22T17:55:28.219052511Z","level":"INFO","msg":"handler: started","stream_id":"xouku7i0"}
+{"time":"2025-05-22T17:55:28.574596841Z","level":"INFO","msg":"Starting system monitor"}

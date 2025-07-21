@@ -1,0 +1,148 @@
+  0%|                                                                                                                                                               | 0/18 [00:00<?, ?it/s]
+{'train_runtime': 1.6833, 'train_samples_per_second': 1424.014, 'train_steps_per_second': 10.693, 'train_loss': 0.0, 'epoch': 2.88}
+***** train metrics *****
+  epoch                    =       2.88
+  total_flos               =  3419140GF
+  train_loss               =        0.0
+  train_runtime            = 0:00:01.68
+  train_samples            =       2250
+  train_samples_per_second =   1424.014
+  train_steps_per_second   =     10.693
+2025-05-22 17:09:01,162 - __main__ - INFO - *** Save model ***
+INFO:__main__:*** Save model ***
+Traceback (most recent call last):
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 265, in <module>
+    main()
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 261, in main
+    train_function(model_args, script_args, training_args)
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 235, in train_function
+    trainer.save_model(training_args.output_dir)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3717, in save_model
+    self._save(output_dir, state_dict=state_dict)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3834, in _save
+    self.model.save_pretrained(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/peft_model.py", line 331, in save_pretrained
+    output_state_dict = get_peft_model_state_dict(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/utils/save_and_load.py", line 255, in get_peft_model_state_dict
+    and (vocab_size != model.config.__class__.from_pretrained(model_id).vocab_size)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/configuration_utils.py", line 545, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/configuration_utils.py", line 574, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/configuration_utils.py", line 633, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/utils/hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1008, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1071, in _hf_hub_download_to_cache_dir
+    (url_to_download, etag, commit_hash, expected_size, xet_file_data, head_call_error) = _get_metadata_or_catch_error(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1531, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1448, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 286, in _request_wrapper
+    response = _request_wrapper(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 309, in _request_wrapper
+    response = http_backoff(method=method, url=url, **params, retry_on_exceptions=(), retry_on_status_codes=(429,))
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 310, in http_backoff
+    response = session.request(method=method, url=url, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 265, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 261, in main
+[rank0]:     train_function(model_args, script_args, training_args)
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 235, in train_function
+[rank0]:     trainer.save_model(training_args.output_dir)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3717, in save_model
+[rank0]:     self._save(output_dir, state_dict=state_dict)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3834, in _save
+[rank0]:     self.model.save_pretrained(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/peft_model.py", line 331, in save_pretrained
+[rank0]:     output_state_dict = get_peft_model_state_dict(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/utils/save_and_load.py", line 255, in get_peft_model_state_dict
+[rank0]:     and (vocab_size != model.config.__class__.from_pretrained(model_id).vocab_size)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/configuration_utils.py", line 545, in from_pretrained
+[rank0]:     config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/configuration_utils.py", line 574, in get_config_dict
+[rank0]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/configuration_utils.py", line 633, in _get_config_dict
+[rank0]:     resolved_config_file = cached_file(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/utils/hub.py", line 403, in cached_file
+[rank0]:     resolved_file = hf_hub_download(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1008, in hf_hub_download
+[rank0]:     return _hf_hub_download_to_cache_dir(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1071, in _hf_hub_download_to_cache_dir
+[rank0]:     (url_to_download, etag, commit_hash, expected_size, xet_file_data, head_call_error) = _get_metadata_or_catch_error(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1531, in _get_metadata_or_catch_error
+[rank0]:     metadata = get_hf_file_metadata(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1448, in get_hf_file_metadata
+[rank0]:     r = _request_wrapper(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 286, in _request_wrapper
+[rank0]:     response = _request_wrapper(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 309, in _request_wrapper
+[rank0]:     response = http_backoff(method=method, url=url, **params, retry_on_exceptions=(), retry_on_status_codes=(429,))
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 310, in http_backoff
+[rank0]:     response = session.request(method=method, url=url, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+[rank0]:     resp = self.send(prep, **send_kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+[rank0]:     r = adapter.send(request, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+[rank0]:     return super().send(request, *args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+[rank0]:     resp = conn.urlopen(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+[rank0]:     response = self._make_request(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+[rank0]:     response = conn.getresponse()
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+[rank0]:     httplib_response = super().getresponse()
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 1375, in getresponse
+[rank0]:     response.begin()
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 318, in begin
+[rank0]:     version, status, reason = self._read_status()
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 279, in _read_status
+[rank0]:     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/socket.py", line 717, in readinto
+[rank0]:     return self._sock.recv_into(b)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/ssl.py", line 1307, in recv_into
+[rank0]:     return self.read(nbytes, buffer)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/ssl.py", line 1163, in read
+[rank0]:     return self._sslobj.read(len, buffer)
+[rank0]: KeyboardInterrupt

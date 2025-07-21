@@ -1,0 +1,132 @@
+  0%|                                                                                                                                                              | 0/102 [00:00<?, ?it/s]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+  2%|██▉                                                                                                                                                   | 2/102 [00:17<12:59,  7.79s/it]Traceback (most recent call last):
+{'loss': 2.0078, 'grad_norm': 0.7758269897798421, 'learning_rate': 0.00019803921568627454, 'epoch': 0.02}
+{'loss': 1.9353, 'grad_norm': 0.7563648434930761, 'learning_rate': 0.000196078431372549, 'epoch': 0.04}
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 290, in <module>
+    main()
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 286, in main
+    train_function(model_args, script_args, training_args)
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 243, in train_function
+    train_result = trainer.train(resume_from_checkpoint=last_checkpoint)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2114, in train
+    return inner_training_loop(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3633, in compute_loss
+    outputs = model(**inputs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1899, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/peft_model.py", line 1644, in forward
+    return self.base_model(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 197, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/liger_kernel/transformers/model/qwen2.py", line 205, in lce_forward
+    outputs = self.model(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 883, in forward
+    layer_outputs = self._gradient_checkpointing_func(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_compile.py", line 31, in inner
+    return disable_fn(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 600, in _fn
+    return fn(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 488, in checkpoint
+    ret = function(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 623, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 443, in forward
+    attn_output = _flash_attention_forward(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/modeling_flash_attention_utils.py", line 271, in _flash_attention_forward
+    elif position_ids is not None and query_length != 1 and not (torch.diff(position_ids, dim=-1) >= 0).all():
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 290, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 286, in main
+[rank0]:     train_function(model_args, script_args, training_args)
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 243, in train_function
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=last_checkpoint)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2114, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3633, in compute_loss
+[rank0]:     outputs = model(**inputs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1899, in forward
+[rank0]:     loss = self.module(*inputs, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/peft_model.py", line 1644, in forward
+[rank0]:     return self.base_model(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 197, in forward
+[rank0]:     return self.model.forward(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/liger_kernel/transformers/model/qwen2.py", line 205, in lce_forward
+[rank0]:     outputs = self.model(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 883, in forward
+[rank0]:     layer_outputs = self._gradient_checkpointing_func(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_compile.py", line 31, in inner
+[rank0]:     return disable_fn(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 600, in _fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 488, in checkpoint
+[rank0]:     ret = function(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 623, in forward
+[rank0]:     hidden_states, self_attn_weights, present_key_value = self.self_attn(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 443, in forward
+[rank0]:     attn_output = _flash_attention_forward(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/modeling_flash_attention_utils.py", line 271, in _flash_attention_forward
+[rank0]:     elif position_ids is not None and query_length != 1 and not (torch.diff(position_ids, dim=-1) >= 0).all():
+[rank0]: KeyboardInterrupt

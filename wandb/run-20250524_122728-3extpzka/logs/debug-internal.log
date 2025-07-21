@@ -1,0 +1,14 @@
+{"time":"2025-05-24T12:27:28.644497865Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/long/WhatMakesAGoodPrompt/wandb/run-20250524_122728-3extpzka/logs/debug-core.log"}
+{"time":"2025-05-24T12:27:29.079913789Z","level":"INFO","msg":"created new stream","id":"3extpzka"}
+{"time":"2025-05-24T12:27:29.079965125Z","level":"INFO","msg":"stream: started","id":"3extpzka"}
+{"time":"2025-05-24T12:27:29.079986214Z","level":"INFO","msg":"sender: started","stream_id":"3extpzka"}
+{"time":"2025-05-24T12:27:29.080009498Z","level":"INFO","msg":"handler: started","stream_id":"3extpzka"}
+{"time":"2025-05-24T12:27:29.079984381Z","level":"INFO","msg":"writer: Do: started","stream_id":"3extpzka"}
+{"time":"2025-05-24T12:27:29.39909815Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-24T12:28:45.12770768Z","level":"ERROR","msg":"runconsolelogs: failed to write to file: write /home/long/WhatMakesAGoodPrompt/wandb/run-20250524_122728-3extpzka/files/output.log: no space left on device"}
+{"time":"2025-05-24T12:28:45.457697002Z","level":"INFO","msg":"stream: closing","id":"3extpzka"}
+{"time":"2025-05-24T12:28:45.457738279Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-24T12:28:45.457777462Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-24T12:28:45.678099784Z","level":"ERROR","msg":"sender: failed to upload run summary: write /home/long/WhatMakesAGoodPrompt/wandb/run-20250524_122728-3extpzka/files/wandb-summary.json: no space left on device"}
+{"time":"2025-05-24T12:28:45.947709314Z","level":"ERROR","msg":"sender: failed to upload run config: write /home/long/WhatMakesAGoodPrompt/wandb/run-20250524_122728-3extpzka/files/config.yaml: no space left on device"}
+{"time":"2025-05-24T12:28:46.236576849Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

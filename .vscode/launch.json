@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "finetuning-codes/customed_run_sft.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "env": {
+        "CUDA_VISIBLE_DEVICES": "0,1,2,3",
+        "HF_TOKEN": "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"
+      },
+      "args": [
+        "--config",
+        "finetuning-codes/receipes/qwen-2.5-7b-qlora.yaml"
+      ]
+    }
+  ]
+}

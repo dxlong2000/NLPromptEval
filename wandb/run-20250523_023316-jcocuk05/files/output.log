@@ -1,0 +1,218 @@
+  0%|                                                                                                                                                              | 0/204 [00:00<?, ?it/s]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+  2%|███▋                                                                                                                                                  | 5/204 [00:33<12:23,  3.74s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.8776, 'grad_norm': 1.1894091552713448, 'learning_rate': 0.00019901960784313727, 'epoch': 0.02}
+{'loss': 1.7481, 'grad_norm': 1.257235619370526, 'learning_rate': 0.00019803921568627454, 'epoch': 0.04}
+{'loss': 1.7051, 'grad_norm': 0.7831297382612312, 'learning_rate': 0.00019705882352941177, 'epoch': 0.06}
+{'loss': 1.5615, 'grad_norm': 0.1630579686987006, 'learning_rate': 0.000196078431372549, 'epoch': 0.08}
+{'loss': 1.5621, 'grad_norm': 0.27647983368046425, 'learning_rate': 0.00019509803921568628, 'epoch': 0.1}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.4685953855514526, 'eval_runtime': 8.2056, 'eval_samples_per_second': 12.065, 'eval_steps_per_second': 3.047, 'epoch': 0.1}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+  5%|███████▎                                                                                                                                             | 10/204 [01:04<13:11,  4.08s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.5808, 'grad_norm': 0.14853605027736422, 'learning_rate': 0.00019411764705882354, 'epoch': 0.12}
+{'loss': 1.4708, 'grad_norm': 0.32373667982979776, 'learning_rate': 0.0001931372549019608, 'epoch': 0.14}
+{'loss': 1.398, 'grad_norm': 0.15589842717534477, 'learning_rate': 0.00019215686274509807, 'epoch': 0.16}
+{'loss': 1.392, 'grad_norm': 0.2817230345830748, 'learning_rate': 0.0001911764705882353, 'epoch': 0.18}
+{'loss': 1.4154, 'grad_norm': 0.132996752063246, 'learning_rate': 0.00019019607843137254, 'epoch': 0.2}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.3054879903793335, 'eval_runtime': 8.2522, 'eval_samples_per_second': 11.997, 'eval_steps_per_second': 3.029, 'epoch': 0.2}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+  7%|██████████▉                                                                                                                                          | 15/204 [01:35<12:56,  4.11s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.251, 'grad_norm': 0.12845306371829976, 'learning_rate': 0.0001892156862745098, 'epoch': 0.22}
+{'loss': 1.3728, 'grad_norm': 0.13609348533276588, 'learning_rate': 0.00018823529411764707, 'epoch': 0.24}
+{'loss': 1.4003, 'grad_norm': 0.20713109333027624, 'learning_rate': 0.00018725490196078433, 'epoch': 0.25}
+{'loss': 1.2848, 'grad_norm': 0.22587949429494572, 'learning_rate': 0.00018627450980392157, 'epoch': 0.27}
+{'loss': 1.2546, 'grad_norm': 0.1082471196039034, 'learning_rate': 0.00018529411764705883, 'epoch': 0.29}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.2684335708618164, 'eval_runtime': 8.245, 'eval_samples_per_second': 12.007, 'eval_steps_per_second': 3.032, 'epoch': 0.29}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 10%|██████████████▌                                                                                                                                      | 20/204 [02:04<12:20,  4.03s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.2107, 'grad_norm': 0.09351243400635749, 'learning_rate': 0.00018431372549019607, 'epoch': 0.31}
+{'loss': 1.1068, 'grad_norm': 0.09793870747406092, 'learning_rate': 0.00018333333333333334, 'epoch': 0.33}
+{'loss': 1.2988, 'grad_norm': 0.09153848278259773, 'learning_rate': 0.0001823529411764706, 'epoch': 0.35}
+{'loss': 1.2435, 'grad_norm': 0.08064440809671794, 'learning_rate': 0.00018137254901960786, 'epoch': 0.37}
+{'loss': 1.282, 'grad_norm': 0.09006157386181787, 'learning_rate': 0.0001803921568627451, 'epoch': 0.39}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.2499347925186157, 'eval_runtime': 8.2506, 'eval_samples_per_second': 11.999, 'eval_steps_per_second': 3.03, 'epoch': 0.39}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 12%|██████████████████▎                                                                                                                                  | 25/204 [02:34<12:02,  4.04s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.177, 'grad_norm': 0.08349743605736731, 'learning_rate': 0.00017941176470588236, 'epoch': 0.41}
+{'loss': 1.2987, 'grad_norm': 0.10323345120026699, 'learning_rate': 0.00017843137254901963, 'epoch': 0.43}
+{'loss': 1.2717, 'grad_norm': 0.08623255435945666, 'learning_rate': 0.00017745098039215687, 'epoch': 0.45}
+{'loss': 1.2406, 'grad_norm': 0.08782282693807421, 'learning_rate': 0.00017647058823529413, 'epoch': 0.47}
+{'loss': 1.2412, 'grad_norm': 0.08290120622249121, 'learning_rate': 0.00017549019607843137, 'epoch': 0.49}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.2388056516647339, 'eval_runtime': 8.2719, 'eval_samples_per_second': 11.968, 'eval_steps_per_second': 3.022, 'epoch': 0.49}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 15%|█████████████████████▉                                                                                                                               | 30/204 [03:04<11:55,  4.11s/it]/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+{'loss': 1.205, 'grad_norm': 0.0952248200183528, 'learning_rate': 0.00017450980392156863, 'epoch': 0.51}
+{'loss': 1.2072, 'grad_norm': 0.09008795854338016, 'learning_rate': 0.0001735294117647059, 'epoch': 0.53}
+{'loss': 1.2187, 'grad_norm': 0.08399234413770945, 'learning_rate': 0.00017254901960784316, 'epoch': 0.55}
+{'loss': 1.2636, 'grad_norm': 0.0883975406625641, 'learning_rate': 0.0001715686274509804, 'epoch': 0.57}
+{'loss': 1.22, 'grad_norm': 0.08990910181571427, 'learning_rate': 0.00017058823529411766, 'epoch': 0.59}
+Invalidate trace cache @ step 1126: expected module 1, but got module 2332
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]                                                                
+{'eval_loss': 1.2291791439056396, 'eval_runtime': 8.257, 'eval_samples_per_second': 11.99, 'eval_steps_per_second': 3.028, 'epoch': 0.59}
+Invalidate trace cache @ step 1126: expected module 2332, but got module 1
+ 17%|████████████████████████▊                                                                                                                            | 34/204 [03:23<13:09,  4.65s/it]Traceback (most recent call last):
+{'loss': 1.1903, 'grad_norm': 0.10193587286854536, 'learning_rate': 0.0001696078431372549, 'epoch': 0.61}
+{'loss': 1.2163, 'grad_norm': 0.08512009752094192, 'learning_rate': 0.00016862745098039216, 'epoch': 0.63}
+{'loss': 1.1854, 'grad_norm': 0.08963521622420018, 'learning_rate': 0.00016764705882352942, 'epoch': 0.65}
+{'loss': 1.3403, 'grad_norm': 0.10917883557763136, 'learning_rate': 0.0001666666666666667, 'epoch': 0.67}
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 280, in <module>
+    main()
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 276, in main
+    train_function(model_args, script_args, training_args)
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 233, in train_function
+    train_result = trainer.train(resume_from_checkpoint=last_checkpoint)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2114, in train
+    return inner_training_loop(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3633, in compute_loss
+    outputs = model(**inputs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1899, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/peft_model.py", line 1644, in forward
+    return self.base_model(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 197, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/liger_kernel/transformers/model/qwen2.py", line 205, in lce_forward
+    outputs = self.model(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 883, in forward
+    layer_outputs = self._gradient_checkpointing_func(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_compile.py", line 31, in inner
+    return disable_fn(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 600, in _fn
+    return fn(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 488, in checkpoint
+    ret = function(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 623, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 379, in forward
+    value_states = self.v_proj(hidden_states)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1592, in _call_impl
+    args_result = hook(self, args)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 422, in _post_backward_module_hook
+    return apply_to_tensors_only(module.post_bwd_fn.apply,
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/zero/utils.py", line 133, in apply_to_tensors_only
+    touched_output = apply_to_tensors_only(function, elem)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/zero/utils.py", line 149, in apply_to_tensors_only
+    touched_output = function(value)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/autograd/function.py", line 573, in apply
+    args = _functorch.utils.unwrap_dead_wrappers(args)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_functorch/utils.py", line 33, in unwrap_dead_wrappers
+    result = tuple(
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 280, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 276, in main
+[rank0]:     train_function(model_args, script_args, training_args)
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 233, in train_function
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=last_checkpoint)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2114, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3633, in compute_loss
+[rank0]:     outputs = model(**inputs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1899, in forward
+[rank0]:     loss = self.module(*inputs, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/peft_model.py", line 1644, in forward
+[rank0]:     return self.base_model(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 197, in forward
+[rank0]:     return self.model.forward(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/liger_kernel/transformers/model/qwen2.py", line 205, in lce_forward
+[rank0]:     outputs = self.model(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 883, in forward
+[rank0]:     layer_outputs = self._gradient_checkpointing_func(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_compile.py", line 31, in inner
+[rank0]:     return disable_fn(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 600, in _fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 488, in checkpoint
+[rank0]:     ret = function(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 623, in forward
+[rank0]:     hidden_states, self_attn_weights, present_key_value = self.self_attn(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 379, in forward
+[rank0]:     value_states = self.v_proj(hidden_states)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1592, in _call_impl
+[rank0]:     args_result = hook(self, args)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 422, in _post_backward_module_hook
+[rank0]:     return apply_to_tensors_only(module.post_bwd_fn.apply,
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/zero/utils.py", line 133, in apply_to_tensors_only
+[rank0]:     touched_output = apply_to_tensors_only(function, elem)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/deepspeed/runtime/zero/utils.py", line 149, in apply_to_tensors_only
+[rank0]:     touched_output = function(value)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/autograd/function.py", line 573, in apply
+[rank0]:     args = _functorch.utils.unwrap_dead_wrappers(args)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/torch/_functorch/utils.py", line 33, in unwrap_dead_wrappers
+[rank0]:     result = tuple(
+[rank0]: KeyboardInterrupt

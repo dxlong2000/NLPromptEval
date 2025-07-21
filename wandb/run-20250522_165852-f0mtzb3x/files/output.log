@@ -1,0 +1,119 @@
+  0%|                                                                                                                                                                | 0/3 [00:00<?, ?it/s]
+{'train_runtime': 1.6456, 'train_samples_per_second': 1456.601, 'train_steps_per_second': 1.823, 'train_loss': 0.0, 'epoch': 2.88}
+***** train metrics *****
+  epoch                    =       2.88
+  total_flos               =  2745016GF
+  train_loss               =        0.0
+  train_runtime            = 0:00:01.64
+  train_samples            =       2250
+  train_samples_per_second =   1456.601
+  train_steps_per_second   =      1.823
+2025-05-22 16:58:53,426 - __main__ - INFO - *** Save model ***
+INFO:__main__:*** Save model ***
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+training_args.bin: 16.0MB [00:00, 49.4MB/s]                                                                                                                          | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.11it/s]
+Traceback (most recent call last):
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 265, in <module>
+    main()
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 261, in main
+    train_function(model_args, script_args, training_args)
+  File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 235, in train_function
+    trainer.save_model(training_args.output_dir)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3734, in save_model
+    self.push_to_hub(commit_message="Model save")
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 4662, in push_to_hub
+    return upload_folder(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 1633, in _inner
+    return fn(self, *args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 4942, in upload_folder
+    commit_info = self.create_commit(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 1633, in _inner
+    return fn(self, *args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 4293, in create_commit
+    commit_resp = get_session().post(url=commit_url, headers=headers, data=data, params=params)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/long/.conda/envs/good_prompt/lib/python3.10/ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 265, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 261, in main
+[rank0]:     train_function(model_args, script_args, training_args)
+[rank0]:   File "/home/long/WhatMakesAGoodPrompt/finetuning-codes/customed_run_sft.py", line 235, in train_function
+[rank0]:     trainer.save_model(training_args.output_dir)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 3734, in save_model
+[rank0]:     self.push_to_hub(commit_message="Model save")
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/transformers/trainer.py", line 4662, in push_to_hub
+[rank0]:     return upload_folder(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 1633, in _inner
+[rank0]:     return fn(self, *args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 4942, in upload_folder
+[rank0]:     commit_info = self.create_commit(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 1633, in _inner
+[rank0]:     return fn(self, *args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 4293, in create_commit
+[rank0]:     commit_resp = get_session().post(url=commit_url, headers=headers, data=data, params=params)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+[rank0]:     return self.request("POST", url, data=data, json=json, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+[rank0]:     resp = self.send(prep, **send_kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+[rank0]:     r = adapter.send(request, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+[rank0]:     return super().send(request, *args, **kwargs)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+[rank0]:     resp = conn.urlopen(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+[rank0]:     response = self._make_request(
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+[rank0]:     response = conn.getresponse()
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+[rank0]:     httplib_response = super().getresponse()
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 1375, in getresponse
+[rank0]:     response.begin()
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 318, in begin
+[rank0]:     version, status, reason = self._read_status()
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/http/client.py", line 279, in _read_status
+[rank0]:     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/socket.py", line 717, in readinto
+[rank0]:     return self._sock.recv_into(b)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/ssl.py", line 1307, in recv_into
+[rank0]:     return self.read(nbytes, buffer)
+[rank0]:   File "/home/long/.conda/envs/good_prompt/lib/python3.10/ssl.py", line 1163, in read
+[rank0]:     return self._sslobj.read(len, buffer)
+[rank0]: KeyboardInterrupt
